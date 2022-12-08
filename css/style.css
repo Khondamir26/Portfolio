@@ -85,12 +85,20 @@
     max-width: 148px;
 }
 .header_content-lan{
-    font-family: var(--f700);
+    font-family: var(--f400);
     color: var(--black);
     font-size: 16px;
     line-height: 20px;
     transform: rotate(-90deg);
     translate: 23px;
+    
+}
+
+.header_content-lan:hover{
+    transition: all 0.3s; 
+    color:  var(--black);
+    font-family: var(--f700);
+    
     
 }
 
