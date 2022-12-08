@@ -106,6 +106,15 @@
     margin: 50px 0 105px 0;
 }
 
+.header_nav_link:hover{
+    text-decoration: underline;
+    transition: all 0.2s; 
+    color: var(--black);
+    font-family: var(--f700);
+    font-size: 22px;
+    border-bottom: 2px var(--black) ;
+}
+
 /* HEADER END */
 
 
@@ -249,14 +258,21 @@
     font-family: var(--f700);
     font-size: 18px;
     line-height: 22px;
-    background: var(--black);
+    background: white;
     padding: 13px 28px 13px 28px;
-    color: white;
+    color: var(--black);
     border-radius: 50px;
-
+    border: 1px solid black;
     
 }
 
+.footer_link:hover{
+    background: var(--black);
+    color: white;
+    transition: all 0.4s;
+    cursor: pointer;
+
+}
 .footer_bottom{
     padding: 100px 0 120px 0;
 }
